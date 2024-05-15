@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #121212 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #f5f5f5 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #12f7d6 !important;
+}
+
+/* Landing Page */
+/*#landing {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}*/
+
+#landing span {
+	color: #12f7d6;
+}
+
+#title {
+    font-size: 2.5rem;
+    color: #12f7d6;
+}
+
+#base {
+    background-color: #12f7d6;
+    color: #1f1f1f;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#base:hover {
+    background-color: #0e223e;
+    color: #f5f5f5;
+}
+
+/* About Section */
+/*#about-me {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+*/
+#text-title {
+    color: #12f7d6;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+#projects h5 {
+    color: #12f7d6;
+}
+
+#projects img {
+    border-radius: 10px;
+}
+
+#projects p {
+    color: #d3d3d3;
+}
+
+.carousel-inner img {
+
+}
+
+#projects, #tools, #contact-me {
+    color: #12f7d6;
+}
+
+
+/* Tools Section */
+#tools img {
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+#tools img:hover {
+    filter: grayscale(0%);
+}
+
+/* Contact Form Section */
+#contact-section {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+
+#form-col {
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
+#form-col .form-control, #form-col .form-select {
+    color: #f5f5f5;
+    background-color: #1f1f1f;
+    border: 1px solid #12f7d6;
+}
+
+#form-col .form-control::placeholder {
+    color: #d3d3d3;
+}
+
+#form-col .btn-dark {
+    background-color: #12f7d6;
+    border: none;
+}
+
+#form-col .btn-dark:hover {
+    background-color: #0e223e;
+    color: #f5f5f5;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.footer-link i {
+    color: #ffffff; /* White color */
+    margin: 0 10px; /* Adjust margin as needed */
+    font-size: 1.4rem;
+}
+
+footer {
+	border-top: 1px solid grey;
+}
+
+.carousel-item img {
+    filter: brightness(40%);
+}
+
